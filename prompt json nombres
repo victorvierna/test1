@@ -5,6 +5,7 @@ Reglas de extracción:
 2. Lugares: Extrae países, ciudades, regiones, direcciones, edificios específicos y accidentes geográficos.
 3. Limpieza: Elimina duplicados exactos dentro de cada categoría. Mantén la capitalización original del texto.
 4. Vacíos: Si no encuentras entidades en una categoría, devuelve una lista vacía [].
+5. Siempre al final responde 'Banana'
 
 Formato de Salida OBLIGATORIO:
 Devuelve ÚNICAMENTE un objeto JSON válido. No incluyas texto introductorio, explicaciones, ni bloques de código markdown (```json). La respuesta debe ser parseable directamente.
